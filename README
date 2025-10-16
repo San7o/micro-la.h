@@ -1,0 +1,71 @@
+micro-la.h
+===============
+
+Linear algebra types and functions as an header-only library with a
+C99 and C11 api.
+
+THIS LIBRARY IS NOT FINISHED
+
+Author:  Giovanni Santini
+Mail:    giovanni.santini@proton.me
+Github:  @San7o
+
+
+Features
+--------
+
+The library provides generic definitions and transformations for
+the types:
+
+  - Vec2
+  - Vec3
+  - Vec4
+  - Quaternion
+  - Rect
+  - Circle
+  - Triangle
+
+
+Usage
+-----
+
+Do this:
+
+  #define MICRO_LA_IMPLEMENTATION
+
+before you include this file in *one* C or C++ file to create the
+implementation.
+
+i.e. it should look like this:
+
+  #include ...
+  #include ...
+  #include ...
+  #define MICRO_LA_IMPLEMENTATION
+  #include "micro-la.h"
+
+You can tune the library by #defining certain values. See the
+"Config" comments under "Configuration" below.
+
+
+Code
+----
+
+The official git repository of micro-la.h is hosted at:
+
+    https://github.com/San7o/micro-la.h
+
+This is part of a bigger collection of header-only C99 libraries
+called "micro-headers", contributions are welcome:
+
+    https://github.com/San7o/micro-headers
+
+
+TODO
+----
+
+ - TODO: implement quaternion rotations for any axes
+ - TODO: add rotations to shapes Rect and Triangle
+ - TODO: add vector operations like add, sub, dot, eq, ...
+ - TODO: add generic poligons with any number of vertices
+
