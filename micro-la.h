@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 //
 // micro-la.h
-// ===============
+// ==========
 //
 // Linear algebra types and functions as an header-only library with a
 // C99 and C11 api.
