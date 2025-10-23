@@ -7,7 +7,7 @@
 # Compiler flags
 #
 STD          = c99
-CFLAGS       = -Wall -Werror -Wpedantic -std=$(STD)
+CFLAGS       = -Wall -Werror -Wpedantic -Wextra -std=$(STD)
 DEBUG_FLAGS  = -ggdb
 LDFLAGS      = -lm
 TEST_LDFLAGS = -lSDL3
